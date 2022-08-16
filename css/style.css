@@ -239,6 +239,15 @@ li {
   height: 400px;
 }
 
+/*about*/
+#about {
+  max-width: 600px;
+}
+#about p {
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
+
 /*company*/
 #company {
   max-width: 600px;
