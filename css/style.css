@@ -184,8 +184,8 @@ li {
   margin-bottom: 40px;
 }
 .product-list img {
-  width: 294px;
-  height: 294px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
   margin-bottom: 10px;
   vertical-align: top;
 }
@@ -233,10 +233,6 @@ li {
 }
 #item .item-img {
   width: 50%;
-}
-#item .item-img img {
-  width: 400px;
-  height: 400px;
 }
 
 /*about*/
@@ -311,10 +307,6 @@ li {
   .product-list li {
     width: 47%;
   }
-  .product-item img {
-    width: 139px;
-    height: 139px;
-  }
   /*item*/
   #item {
     flex-direction: column;
@@ -325,10 +317,6 @@ li {
   #item .item-img {
     width: 100%;
     margin-bottom: 30px;
-  }
-  #item .item-img img {
-    width: 294px;
-    height: 294px;
   }
   /*company*/
   #company dl {
