@@ -234,6 +234,12 @@ li {
 #item .item-img {
   width: 50%;
 }
+#item .item-img img {
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 /*about*/
 #about {
